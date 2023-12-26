@@ -1,9 +1,16 @@
-import { Button } from "@/components/ui/button";
+import Accelarators from "@/components/Accelarators";
+import Banner from "@/components/Banner";
+import ContactUs from "@/components/ContactUs";
+import FAQ from "@/components/Faq";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center relative ">
-      <Button variant="outline">Hi</Button>
+    <div className=" ">
+      <Banner />
+      <Accelarators />
+      <FAQ />
+      {/* <Button variant="outline">Hi</Button> */}
+      <ContactUs />
     </div>
   );
 }
