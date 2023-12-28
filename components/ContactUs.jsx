@@ -1,7 +1,7 @@
 
 export default function ContactUs(props) {
     return (
-        <div className="bg-neutral-900 p-10 rounded-3xl max-md:px-5">
+        <div className="bg-neutral-900 px-28 py-10 max-md:px-5">
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                 <div className="flex flex-col items-stretch w-[61%] max-md:w-full max-md:ml-0">
                     <div className="justify-center items-start flex grow flex-col max-md:max-w-full max-md:mt-10">

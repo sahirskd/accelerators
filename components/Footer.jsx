@@ -2,8 +2,8 @@
 
 export default function Footer(props) {
     return (
-        <div className="self-stretch bg-neutral-900 flex flex-col items-center pt-12 pb-5 px-16 max-md:px-5">
-            <div className="flex w-full max-w-[1203px] flex-col items-stretch mt-2.5 max-md:max-w-full">
+        <div className="self-stretch bg-neutral-900 flex flex-col items-center pt-12 pb-5 px-28 max-md:px-5">
+            <div className="flex w-full  flex-col items-stretch mt-2.5 max-md:max-w-full">
                 <div className="flex justify-between gap-5 items-start max-md:max-w-full max-md:flex-wrap">
                     <div className="flex grow basis-[0%] flex-col items-start max-md:max-w-full">
                         <img

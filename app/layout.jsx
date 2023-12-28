@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${twJoin("bg-slate-800")}`}>
+      <body className={`${inter.className} ${twJoin("bg-slate-800 max-w-[1800px] mx-auto scroll-smooth overflow-x-hidden")}`}>
         <Navigation />
         {children}
         <Footer />

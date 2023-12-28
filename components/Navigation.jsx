@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Navigation(props) {
     return (
-        <div className="justify-center items-center self-stretch backdrop-blur-sm flex flex-col px-16 py-5  border-b-white border-b-opacity-10 border-b border-solid max-md:px-5">
-            <div className="justify-between items-stretch flex w-full max-w-[1200px] gap-5 max-md:max-w-full max-md:flex-wrap">
+        <div className="justify-center items-center self-stretch backdrop-blur-sm flex flex-col px-28 py-5  border-b-white border-b-opacity-10 border-b border-solid max-md:px-5">
+            <div className="justify-between items-stretch flex w-full  gap-5 max-md:max-w-full max-md:flex-wrap">
                 <Image
                     loading="lazy"
                     width={200}

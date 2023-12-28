@@ -1,7 +1,7 @@
 
 export default function Accelarators(props) {
     return (
-        <div className="items-stretch bg-stone-900 flex flex-col px-20 py-12 max-md:px-5">
+        <div className="items-stretch bg-stone-900 flex flex-col px-28 py-12 max-md:px-5">
             <div className="items-stretch flex justify-between gap-5 mt-8 mx-10 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5">
                 <div className="justify-center items-stretch border bg-neutral-900 flex grow basis-[0%] flex-col px-5 py-5 rounded-xl border-solid border-white border-opacity-10 max-md:max-w-full">
                     <div className="justify-between items-stretch flex gap-5 max-md:max-w-full max-md:flex-wrap">
