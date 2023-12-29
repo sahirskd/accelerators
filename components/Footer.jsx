@@ -1,10 +1,12 @@
+import { FiArrowRight, FiArrowUp } from "react-icons/fi";
+import { Button } from "./ui/button";
 
 
 export default function Footer(props) {
     return (
         <div className="self-stretch bg-neutral-900 flex flex-col items-center pt-12 pb-5 px-28 max-md:px-5">
             <div className="flex w-full  flex-col items-stretch mt-2.5 max-md:max-w-full">
-                <div className="flex justify-between gap-5 items-start max-md:max-w-full max-md:flex-wrap">
+                <div className="flex justify-between gap-28 items-start max-md:max-w-full max-md:flex-wrap">
                     <div className="flex grow basis-[0%] flex-col items-start max-md:max-w-full">
                         <img
                             loading="lazy"
@@ -55,16 +57,13 @@ export default function Footer(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="justify-center items-center bg-sky-500 flex aspect-[1.0166666666666666] flex-col w-[61px] h-[61px] mt-28 px-6 rounded-lg self-end max-md:mt-10 max-md:px-5">
-                        <img
-                            loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1231aa28e901dda25b527602184e1137c9cdc0c02e3ff5a7fed600eae29168f8?"
-                            className="aspect-[0.86] object-contain object-center w-full overflow-hidden"
-                        />
-                    </div>
+
+                    <Button size="icon" className="h-14 w-14" variant="light" >
+                        <FiArrowUp className="h-5 w-5" />
+                    </Button>
                 </div>
                 <div className="mt-8 max-md:max-w-full">
-                    <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                    <div className="gap-28 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
                         <div className="flex flex-col items-stretch w-[47%] max-md:w-full max-md:ml-0">
                             <div className="flex flex-col items-stretch max-md:max-w-full max-md:mt-10">
                                 <img
@@ -81,16 +80,10 @@ export default function Footer(props) {
                                     <div className="text-white text-opacity-50 text-base leading-6 whitespace-nowrap bg-stone-900 grow justify-center pl-5 pr-16 py-3.5 rounded-xl items-start max-md:pr-5">
                                         Business Email Address
                                     </div>
-                                    <div className="justify-between bg-sky-500 flex gap-4 px-6 py-5 rounded-lg items-start max-md:px-5">
-                                        <div className="text-white text-base font-medium leading-8">
-                                            Subscribe
-                                        </div>
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/02d4ec5a995b09e6669d2768a08dc6a8cdef2cfa14078b18228a865d2254a115?"
-                                            className="aspect-[1.17] object-contain object-center w-3.5 overflow-hidden self-stretch shrink-0 max-w-full"
-                                        />
-                                    </div>
+                                    <Button variant="light" >
+                                        Subscribe
+                                        <FiArrowRight className="ml-2 h-5 w-5" />
+                                    </Button>
                                 </div>
                             </div>
                         </div>

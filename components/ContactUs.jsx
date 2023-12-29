@@ -1,3 +1,5 @@
+import { FiArrowRight } from "react-icons/fi";
+import { Button } from "./ui/button";
 
 export default function ContactUs(props) {
     return (
@@ -74,20 +76,14 @@ export default function ContactUs(props) {
                             </div>
                         </div>
                         <div className="justify-between items-center self-stretch flex w-full gap-5 mt-8 max-md:max-w-full max-md:flex-wrap">
-                            <div className="text-white text-sm leading-5 bg-clip-text bg-[linear-gradient(118deg,#1E8AF2_11.5%,#05BED7_55.42%)] grow shrink basis-auto my-auto">
+                            <div className="text-white text-sm leading-5 bg-clip-text bg-[linear-gradient(118deg,#1E8AF2_11.5%,#05BED7_55.42%)] grow shrink basis-auto my-auto max-w-[28rem]">
                                 I understand and consent to my personal data being processed in
                                 accordance with TechChefzs Privacy Policy.
                             </div>{" "}
-                            <div className="justify-between bg-sky-500 self-stretch flex gap-4 px-6 py-5 rounded-lg items-start max-md:px-5">
-                                <div className="text-white text-base font-medium leading-8">
-                                    Send a Message
-                                </div>{" "}
-                                <img
-                                    loading="lazy"
-                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/02d4ec5a995b09e6669d2768a08dc6a8cdef2cfa14078b18228a865d2254a115?"
-                                    className="aspect-[1.17] object-contain object-center w-3.5 overflow-hidden self-stretch shrink-0 max-w-full"
-                                />
-                            </div>
+                            <Button variant="light" >
+                                Send a Message
+                                <FiArrowRight className="ml-2 h-5 w-5" />
+                            </Button>
                         </div>
                     </div>
                 </div>{" "}
