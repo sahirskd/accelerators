@@ -5,7 +5,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion"
 
-export default function FAQ() {
+export default function Faq() {
     return (
         <div className="justify-center items-center bg-zinc-900 flex flex-col px-28 py-12 max-md:px-5">
             <div className="flex w-full  flex-col my-8 max-md:max-w-full">

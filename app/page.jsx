@@ -1,6 +1,7 @@
 import Accelarators from "@/components/Accelarators";
 import Banner from "@/components/Banner";
 import ContactUs from "@/components/ContactUs";
+import Faq from "@/components/FAQ";
 
 
 export const metadata = {
@@ -13,7 +14,7 @@ export default function Home() {
     <div className=" ">
       <Banner />
       <Accelarators />
-      {/* <FAQ /> */}
+      <Faq />
       <ContactUs />
     </div>
   );
