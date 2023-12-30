@@ -1,7 +1,7 @@
 import Accelarators from "@/components/Accelarators";
 import Banner from "@/components/Banner";
 import ContactUs from "@/components/ContactUs";
-import Faq from "@/components/FAQ";
+import Faq from "@/components/Faq";
 
 
 export const metadata = {
