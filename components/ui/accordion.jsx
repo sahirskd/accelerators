@@ -14,16 +14,16 @@ const AccordionItem = React.forwardRef(({ className, ...props }, ref) => (
 AccordionItem.displayName = "AccordionItem"
 
 const AccordionTrigger = React.forwardRef(({ className, children, ...props }, ref) => (
-  <AccordionPrimitive.Header className="flex">
+  <AccordionPrimitive.Header className="flex ">
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ",
+        "flex flex-1 items-center outline-none justify-between py-4 font-medium transition-all hover:underline ",
         className
       )}
       {...props}>
       {children}
-      <FiPlus className="h-6 w-6 shrink-0 transition-transform duration-200" />
+      <FiPlus className="h-6 w-6 shrink-0 transition-transform duration-200 text-light-blue" />
       {/* <FiMinus className="h-6 w-6 shrink-0 transition-transform duration-200" /> */}
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
