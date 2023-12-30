@@ -1,6 +1,6 @@
 import Accelarators from "@/components/accelarator/Accelarators";
 import Banner from "@/components/Banner";
-import ContactUs from "@/components/ContactUs";
+import ContactUs from "@/components/contactus/ContactUs";
 import Faq from "@/components/Faq";
 
 
