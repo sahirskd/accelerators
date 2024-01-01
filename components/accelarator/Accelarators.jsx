@@ -61,13 +61,20 @@ export default function Accelarators(props) {
             </div>
             <div className="m-0  mt-10 max-md:max-w-full max-md:mr-2.5">
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
-                    <Card />
+                    <Card cardTitle={"Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
                 </div>
             </div>
         </div>

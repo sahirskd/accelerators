@@ -3,7 +3,7 @@ import { MdArrowOutward } from "react-icons/md";
 import { Badge } from "../ui/badge";
 
 
-const Card = () => {
+const Card = ({ cardTitle }) => {
     return (
         <div className="flex cursor-pointer flex-col items-stretch  max-md:w-full max-md:ml-0">
             <div className="items-stretch transition-all hover:border-[color:var(--Gradient,#1E8AF2)] bg-neutral-900 flex w-full grow flex-col mx-auto p-8 rounded-3xl border-2 border-solid max-md:mt-10 max-md:px-5">
@@ -24,8 +24,7 @@ const Card = () => {
                 </div>
 
                 <div className="text-white text-2xl font-medium leading-8 mt-5">
-                    Improve On-Shelf <br />
-                    Availability
+                    {cardTitle}
                 </div>
                 <div className="text-white text-base leading-6 mt-3">
                     Elevate your product accessibility with strategic inventory

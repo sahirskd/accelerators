@@ -18,11 +18,11 @@ export function HeaderNavigationLinks() {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem content="none">
-                    <NavigationMenuLink href="#" className={`${twJoin("text-white hover:text-white text-base font-medium self-start ")}, ${navigationMenuTriggerStyle()}`}>About Us</NavigationMenuLink>
+                    <NavigationMenuLink href="#" className={`${twJoin("text-white hover:text-white text-base font-medium self-start ")} ${navigationMenuTriggerStyle()}`}>About Us</NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem >
-                    <NavigationMenuLink href="#" className={`${twJoin("text-white hover:text-white text-base font-medium self-start ")}, ${navigationMenuTriggerStyle()}`}>Solutions</NavigationMenuLink>
+                    <NavigationMenuLink href="#" className={`${twJoin("text-white hover:text-white text-base font-medium self-start ")} ${navigationMenuTriggerStyle()}`}>Solutions</NavigationMenuLink>
                 </NavigationMenuItem>
 
                 <NavigationMenuItem >
