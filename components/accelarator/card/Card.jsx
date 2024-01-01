@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { MdArrowOutward } from "react-icons/md";
-import { Badge } from "../ui/badge";
+import { Badge } from "../../ui/badge";
 
 
 const Card = ({ id, url, cardtitle, title, description, industry, technology, tags }) => {

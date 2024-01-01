@@ -1,4 +1,4 @@
-import Accelarators from "@/components/accelarator/Accelarators";
+import Accelarators from "@/components/accelarator/card/Accelarators";
 import Banner from "@/components/Banner";
 import ContactUs from "@/components/contactus/ContactUs";
 import Faq from "@/components/Faq";
