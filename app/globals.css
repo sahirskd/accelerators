@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Codec+Pro:wght@700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Codec+Pro:wght@700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Aeonik:wght@400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Helvetica+Now+Display:wght@400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Aeonik:wght@400;500&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Helvetica+Now+Display:wght@400;500&display=swap"); */
 
 @tailwind base;
 @tailwind components;

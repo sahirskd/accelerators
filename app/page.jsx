@@ -9,11 +9,23 @@ export const metadata = {
   description: 'Speed Your Journey from Idea to Impact with our Accelerators.',
 };
 
-export default function Home() {
+async function getAccelerators() {
+  const res = await fetch('http://localhost:3001/node/api/core/search-accelarators')
+
+  if (!res.ok) {
+    throw new Error('Failed to fetch data')
+  }
+
+  return res.json()
+}
+
+export default async function Home() {
+  const accelarators = await getAccelerators();
+
   return (
     <div className=" ">
       <Banner />
-      <Accelarators />
+      <Accelarators cards={accelarators.data.cards} />
       <Faq />
       <ContactUs />
     </div>

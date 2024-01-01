@@ -1,7 +1,9 @@
+"use client"
 import { IoIosSearch } from "react-icons/io";
 import Card from "./Card";
 
-export default function Accelarators(props) {
+export default function Accelarators({ cards }) {
+    // console.log("cards:", cards)
     return (
         <div className="items-stretch bg-stone-900 flex flex-col px-28 py-12 max-md:px-5">
             <div className="items-stretch flex justify-between gap-5 mt-8  max-md:max-w-full max-md:flex-wrap max-md:mr-2.5">
@@ -61,20 +63,9 @@ export default function Accelarators(props) {
             </div>
             <div className="m-0  mt-10 max-md:max-w-full max-md:mr-2.5">
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
-                    <Card cardTitle={"Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
-                    <Card cardTitle={"Title Improve On-Shelf Availability"} />
+                    {cards.map(({ id, url, cardtitle, title, description, industry, technology, tags }) => (
+                        <Card key={id} url={url} cardTitle={cardtitle} description={description} industry={industry} technology={technology} tags={tags} />
+                    ))}
                 </div>
             </div>
         </div>
