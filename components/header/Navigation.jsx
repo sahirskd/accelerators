@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
+import { Switch } from "../ui/switch";
 import { HeaderNavigationLinks } from "./HeaderNavigationLinks";
 
 export default function Navigation(props) {
@@ -18,11 +19,7 @@ export default function Navigation(props) {
                 <HeaderNavigationLinks />
 
                 <div className="items-center flex justify-between gap-5">
-                    <img
-                        loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/79d26d1a561d4b0b08afb66e3ed209b1daa2e5d9ee0247068313ebefa9abb906?"
-                        className="aspect-square object-contain object-center w-[30px] overflow-hidden shrink-0 max-w-full my-auto"
-                    />
+                    <Switch className="data-[state=checked]:bg-transparent border-solid border-2 border-white" id="theme-switch" />
                     <Button variant="light" size="sm" className="">
                         Estimate Project
                     </Button>
