@@ -1,7 +1,7 @@
 import About from "@/components/accelarator/post/About"
 import Features from "@/components/accelarator/post/Features"
 import Impact from "@/components/accelarator/post/Impact"
-import Intro from "@/components/accelarator/post/intro"
+import Intro from "@/components/accelarator/post/Intro"
 import ContactUs from "@/components/contactus/ContactUs"
 
 const Page = () => {
