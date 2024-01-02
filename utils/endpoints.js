@@ -1,1 +1,1 @@
-export const SERVICE_URL = process.env.ACCELARATOR_BACKEND_URL + "node/api/core/"
+export const SERVICE_URL = process.env.ACCELARATOR_BACKEND_URL + "/node/api/core/"
