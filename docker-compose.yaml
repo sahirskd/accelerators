@@ -1,0 +1,13 @@
+version: '3'
+services:
+  accelators-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4503:3000"
+    networks:
+      - accelators-network
+
+networks:
+  accelators-network:
