@@ -2,6 +2,7 @@ import Accelarators from "@/components/accelarator/card/Accelarators";
 import Banner from "@/components/Banner";
 import ContactUs from "@/components/contactus/ContactUs";
 import Faq from "@/components/Faq";
+import { SERVICE_URL } from "@/utils/endpoints";
 
 
 export const metadata = {
@@ -10,7 +11,7 @@ export const metadata = {
 };
 
 async function getAccelerators() {
-  const res = await fetch('http://localhost:3001/node/api/core/search-accelarators')
+  const res = await fetch(SERVICE_URL + 'search-accelarators');
 
   if (!res.ok) {
     throw new Error('Failed to fetch data')
